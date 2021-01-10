@@ -1,0 +1,11 @@
+.idea/
+
+cmake*/
+
+Libraries/**/*.so
+Libraries/**/*.lib
+Libraries/**/*.dll
+Libraries/**/*.dylib
+Libraries/**/*.bundle
+Libraries/**/*.h
+Libraries/**/*.cpp

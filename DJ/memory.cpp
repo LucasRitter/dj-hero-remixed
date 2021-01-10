@@ -35,7 +35,6 @@ void InitialiseMemoryManager() {
     auto pMemoryManager = CMemoryManager::GetInstance();
     pMemoryManager->SetSmallHeap(g_pSmallHeap, 0x80);
 
-    // Fixme: IMPLEMENT THIS CUNT
     pMemoryManager->PushDefaultHeap(g_pGlobalHeap);
     g_pSmallHeap->PushSnapshot("SDJ:Small", nullptr, 0);
     g_pGlobalHeap->PushSnapshot("SDJ:Global", nullptr, 0);
